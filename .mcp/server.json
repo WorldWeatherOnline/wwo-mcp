@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.WorldWeatherOnline/wwo-mcp",
+  "title": "World Weather Online",
+  "description": "Real-time weather, 14-day forecasts, historical data from 2008, marine, ski, astronomy and timezone data for any location worldwide. Trusted by 300,000+ developers. Requires a free API key from worldweatheronline.com/weather-api/",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.worldweatheronline.com/weather-api/",
+  "repository": {
+    "url": "https://github.com/WorldWeatherOnline/wwo-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.worldweatheronline.com/mcp"
+    }
+  ]
+}
